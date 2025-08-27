@@ -2,3 +2,28 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.navbar {
+  background-color: #dcffc0;
+  color: #1e3a8a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5 rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f97316;
+}
